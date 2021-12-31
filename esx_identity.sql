@@ -1,5 +1,3 @@
-USE `es_extended`;
-
 ALTER TABLE `users`
 	ADD COLUMN `firstname` VARCHAR(16) NULL DEFAULT NULL,
 	ADD COLUMN `lastname` VARCHAR(16) NULL DEFAULT NULL,
